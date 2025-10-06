@@ -9,10 +9,6 @@ Tech Stack
 - Icons: React Icons
 - Routing: React Router 
 
-Live link: https://beautihome.vercel.app/
-
-
-
 ------------------------------
 
 BRANCH NAME AND PURPOSE
