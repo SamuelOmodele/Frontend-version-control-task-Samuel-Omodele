@@ -2,6 +2,8 @@ BeautiHome Real Estate Website
 
 BeautiHome is a modern real estate website designed to showcase featured property listings, display detailed property information, and provide an elegant user experience for exploring homes.
 
+LIVE URL: https://beautihome.vercel.app/
+
 Tech Stack
 
 - Frontend: React.js
