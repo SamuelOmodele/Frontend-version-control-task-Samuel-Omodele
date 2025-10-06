@@ -13,12 +13,12 @@ Tech Stack
 
 BRANCH NAME AND PURPOSE
 
-main: Production-ready branch containing the latest stable code
-feature-navbar: Implemented the navigation bar
-feature-hero-section: Developed the hero section with text and background image overlay
-feature-listings-section: Created the property listings display and responsive grid
-feature-listings-ui: The renamed branch of feature-listings-section branch
-feature/footer-section: Built the footer section with links and contact info
+- main: Production-ready branch containing the latest stable code
+- feature-navbar: Implemented the navigation bar
+- feature-hero-section: Developed the hero section with text and background image overlay
+- feature-listings-section: Created the property listings display and responsive grid
+- feature-listings-ui: The renamed branch of feature-listings-section branch
+- feature/footer-section: Built the footer section with links and contact info
 
 ---------------------------------
 
@@ -27,16 +27,16 @@ SCREENSHOT OF ALL MERGED PULL REQUEST
 
 ---------------------------------
 GIT COMMANDS I USED
-git status: Check current changes and branch status
-git add .: Stage all modified files for commit
-git commit -m "message": To save changes with a descriptive commit message
-git checkout -b branch-name: Create and switch to a new branch
-git merge branch-name: Merge another branch into the current one
-git push origin branch-name: Push commits to the remote branch
-git fetch: Retrieve updates from remote without merging
-git pull: Fetch and merge changes from remote
-git revert HEAD: Undo the most recent commit safely
-git branch -m old-name new-name: Rename a local branch
+- git status: Check current changes and branch status
+- git add .: Stage all modified files for commit
+- git commit -m "message": To save changes with a descriptive commit message
+- git checkout -b branch-name: Create and switch to a new branch
+- git merge branch-name: Merge another branch into the current one
+- git push origin branch-name: Push commits to the remote branch
+- git fetch: Retrieve updates from remote without merging
+- git pull: Fetch and merge changes from remote
+- git revert HEAD: Undo the most recent commit safely
+- git branch -m old-name new-name: Rename a local branch
 
 --------------------------------
 LESSONS LEARNT IN THE PROCESS
