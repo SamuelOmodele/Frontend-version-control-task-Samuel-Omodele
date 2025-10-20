@@ -6,8 +6,12 @@ import house3 from '../../assets/house3.jpg'
 import house4 from '../../assets/house4.jpg'
 import house5 from '../../assets/house5.jpg'
 import house6 from '../../assets/house6.webp'
+import { useNavigate } from "react-router-dom";
 
 const Listings = () => {
+
+  const navigate = useNavigate();
+
   const listings = [
     {
       id: 1,
@@ -64,7 +68,7 @@ const Listings = () => {
             <div className={styles.cardBody}>
               <h3><span>{listing.title}</span> - {listing.price}</h3>
               <p>{listing.details}</p>
-              <button>View Details</button>
+              <button onClick={() => navigate(`/property/${listing.id}`)}>View Details</button>
             </div>
           </div>
         ))}
